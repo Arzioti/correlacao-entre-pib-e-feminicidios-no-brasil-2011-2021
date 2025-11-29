@@ -99,7 +99,7 @@ Análise de Casos Extremos: Destaque para os 3 estados com maiores e menores tax
 ### 🚀 Como Executar
 Clone o repositório:
 Bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+[git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/Arzioti/correlacao-entre-pib-e-feminicidios-no-brasil-2011-2021/tree/main)
 
 
 ### Instale as dependências:
