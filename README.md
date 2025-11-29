@@ -1,30 +1,32 @@
 # CORRELAÇÃO ENTRE PIB E FEMINICÍDIOS NO BRASIL 2011-2021
 
-Buscar dados de violência contra mulher de 2011 a 2021, analisar pib dos estados e municípios de sp e realizar uma proporção utilizando dados do censo demográfico.
+O presente trabalho tem como objetivo realizar um artigo para publicação na revista SENAI e apresentação durante o II Congresso UniSENAI SP.
 
+Para execusão do trabalho foi necessário buscar os dados de violência contra mulher de 2011 a 2021, analisar pib dos estados e municípios de sp e realizar uma proporção utilizando dados do censo demográfico.
 
+###🔍 LINKS
 Taxa de Homicídios Mulheres
-https://www.ipea.gov.br/atlasviolencia/dados-series/52 
+[TAXA HOMICIDIOS MULHERES](https://www.ipea.gov.br/atlasviolencia/dados-series/52 )
 
 Homicídios Mulheres
 [HOMICIDIO MULHERES](https://www.ipea.gov.br/atlasviolencia/dados-series/40) 
 
 Homicídios
-https://www.ipea.gov.br/atlasviolencia/dados-series/328
+[HOMICIDIOS](https://www.ipea.gov.br/atlasviolencia/dados-series/328 )
 
 Projeções da População
-https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html 
+[PROJECAO DA POPULACAO](https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html )
 
 Seade Censo 2022
 Dados senso de 2022
-https://repositorio.seade.gov.br/dataset/seade-censo-2022 
+[SENSO 2022](https://repositorio.seade.gov.br/dataset/seade-censo-2022 )
 
 
 População Brasileira
-https://basedosdados.org/dataset/d30222ad-7a5c-4778-a1ec-f0785371d1ca?table=b99f0017-e587-477e-8cfb-05fb5d1005b8
+[POPULACAO BRASILEIRA](https://basedosdados.org/dataset/d30222ad-7a5c-4778-a1ec-f0785371d1ca?table=b99f0017-e587-477e-8cfb-05fb5d1005b8 )
 
 Produto Interno Bruto dos Municípios
-https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?=&t=resultados 
+[PIP MUNICIPIOS](https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html?=&t=resultados)
 
 Utilizar base de dados do IPEA homicídios contra mulheres dos anos de 2011 a 2019, verificar a taxa de homicídios de mulheres dividindo a quantidade de homicídios de mulheres / quantidade de mulheres do estado nos respectivos anos e multiplicar por 100.000.
 
@@ -90,11 +92,16 @@ Comparativo Absoluto vs. Relativo: Contrastar onde ocorrem mais mortes versus on
 
 ### 📊 Visualizações Geradas
 O código gera os seguintes gráficos para análise:
-Evolução Temporal: Gráfico de linhas mostrando a tendência nacional de casos (2011-2021).
-Ranking por Estado: Gráficos de barras comparando os casos absolutos e as taxas proporcionais.
-Distribuição (Boxplot): Análise da variabilidade das taxas ao longo dos últimos 4 anos.
-Correlação (Heatmap): Mapa de calor evidenciando a correlação negativa entre PIB Total e Taxa de Feminicídio.
-Análise de Casos Extremos: Destaque para os 3 estados com maiores e menores taxas em 2021.
+
+### Ranking por Estado: Gráficos de barras comparando os casos absolutos e as taxas proporcionais.
+<img width="1590" height="789" alt="image" src="https://github.com/user-attachments/assets/e09db500-34aa-4922-b4d9-469777535b49" />
+
+### Correlação (Heatmap): Mapa de calor evidenciando a correlação negativa entre PIB Total e Taxa de Feminicídio.
+<img width="758" height="490" alt="image" src="https://github.com/user-attachments/assets/652a1a30-edfa-4f46-aebb-9b530ddecd90" />
+
+### Análise de Casos Extremos: Destaque para os 3 estados com maiores e menores taxas em 2021.
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/3811bf81-be91-4d64-9417-c6b772797a0d" />
+
 
 ### 🚀 Como Executar
 Clone o repositório:
@@ -108,11 +115,9 @@ pip install pandas seaborn matplotlib numpy openpyxl
 
 
 Ajuste os caminhos:
-O script original utiliza caminhos do Google Drive (/content/drive/...). Para rodar localmente, altere as variáveis path_homicidios, path_pop e path_pib no arquivo homicidiomulheres.py para apontar para a pasta onde você salvou os arquivos CSV/Excel.
+O script original utiliza caminhos do Google Drive (/content/drive/...). Para rodar localmente, baixe os arquivos e cole o caminho no campo escrito "COLE AQUI" no arquivo homicidiomulheres.py para apontar para a pasta onde você salvou os arquivos CSV/Excel.
 Execute o script:
 Você pode rodar o arquivo .py ou abrir em um Jupyter Notebook.
-
-### 📁 Estrutura do Projeto
 
 
 
