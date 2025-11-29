@@ -34,33 +34,35 @@ verificar se quanto maior o pib menor é a taxa de homicídios?
 verificar se quanto menor o pib maior a taxa de homicídios?
 
 
-CORRELAÇÃO ENTRE PIB E FEMINICÍDIOS NO BRASIL 2011-2021
+## CORRELAÇÃO ENTRE PIB E FEMINICÍDIOS NO BRASIL 2011-2021
 
-📊 Desenvolvimento Econômico, Indústria e Violência de Gênero
+### 📊 Desenvolvimento Econômico, Indústria e Violência de Gênero
 Uma Análise da Correlação entre PIB e Feminicídios no Brasil (2011–2021)
 
-📋 Sobre o Projeto
+### 📋 Sobre o Projeto
 Este projeto foi desenvolvido para apresentação no II Congresso UniSENAI SP 2025. O estudo analisa a incidência do feminicídio no Brasil ao longo de uma década (2011-2021), investigando estatisticamente sua relação com o Produto Interno Bruto (PIB) estadual e indicadores de desemprego.
 A hipótese central verificada foi a de que regiões com maior desenvolvimento econômico e industrial tendem a apresentar menores taxas proporcionais de violência letal contra mulheres.
 
-👥 Autores
-Antonio Carlos Amador Junior
-Giovanna dos Santos Sousa
-Aruane Mello Pineda Pertinhez
+### 👥 Autores
+- Antonio Carlos Amador Junior
 
-🔍 Principais Descobertas
+- Giovanna dos Santos Sousa
+
+- Aruane Mello Pineda Pertinhez
+
+### 🔍 Principais Descobertas
 Com base no processamento de dados realizado, o estudo concluiu:
 Disparidade Regional: Enquanto estados populosos (SP, MG) lideram em números absolutos, as maiores taxas por 100 mil habitantes concentram-se em regiões com menor PIB (ex: Ceará, Acre, Tocantins).
 Correlação Negativa: Foi identificada uma correlação de Pearson de -0.57 (ano base 2021) entre o PIB estadual e a taxa de feminicídios, indicando uma tendência moderada onde maior riqueza econômica está associada a menores índices de violência.
 Contexto Industrial: A análise sugere que a dinâmica econômica e a infraestrutura industrial podem atuar como fatores de proteção social indireta.
 
-🛠️ Tecnologias e Bibliotecas
+### 🛠️ Tecnologias e Bibliotecas
 O projeto foi inteiramente desenvolvido em Python, utilizando o ambiente Google Colab.
 pandas: Manipulação, limpeza e fusão (merge) de DataFrames.
 matplotlib & seaborn: Visualização de dados (Gráficos de barras, linhas, boxplots e heatmaps).
 numpy: Operações matemáticas e normalização de dados.
 
-📂 Fontes de Dados
+### 📂 Fontes de Dados
 Os dados utilizados são públicos e foram obtidos através das seguintes fontes oficiais:
 Atlas da Violência (IPEA): Dados brutos de homicídios de mulheres.
 Acesse aqui
@@ -71,7 +73,7 @@ Acesse aqui
 IPEADATA: Taxas de desemprego desagregadas por gênero.
 Acesse aqui
 
-⚙️ Metodologia (Pipeline de Dados)
+### ⚙️ Metodologia (Pipeline de Dados)
 O script homicidiomulheres.py executa o seguinte fluxo de trabalho ETL (Extract, Transform, Load):
 1. Coleta e Limpeza
 Importação dos arquivos .csv e .xlsx.
@@ -86,7 +88,7 @@ Unificação das bases de dados (Violência + População + Economia) utilizando
 Matriz de Correlação: Cálculo do coeficiente de Pearson para validar a relação entre PIB e Violência.
 Comparativo Absoluto vs. Relativo: Contrastar onde ocorrem mais mortes versus onde é mais perigoso viver.
 
-📊 Visualizações Geradas
+### 📊 Visualizações Geradas
 O código gera os seguintes gráficos para análise:
 Evolução Temporal: Gráfico de linhas mostrando a tendência nacional de casos (2011-2021).
 Ranking por Estado: Gráficos de barras comparando os casos absolutos e as taxas proporcionais.
@@ -94,7 +96,7 @@ Distribuição (Boxplot): Análise da variabilidade das taxas ao longo dos últi
 Correlação (Heatmap): Mapa de calor evidenciando a correlação negativa entre PIB Total e Taxa de Feminicídio.
 Análise de Casos Extremos: Destaque para os 3 estados com maiores e menores taxas em 2021.
 
-🚀 Como Executar
+### 🚀 Como Executar
 Clone o repositório:
 Bash
 git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
