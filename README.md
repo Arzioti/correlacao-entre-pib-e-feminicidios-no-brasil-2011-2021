@@ -102,7 +102,7 @@ Bash
 git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
 
 
-Instale as dependências:
+### Instale as dependências:
 Bash
 pip install pandas seaborn matplotlib numpy openpyxl
 
@@ -112,16 +112,8 @@ O script original utiliza caminhos do Google Drive (/content/drive/...). Para ro
 Execute o script:
 Você pode rodar o arquivo .py ou abrir em um Jupyter Notebook.
 
-📁 Estrutura do Projeto
-Plaintext
-├── data/                          # Arquivos de dados (csv, xlsx)
-├── images/                        # Imagens salvas dos gráficos gerados
-├── src/
-│   └── homicidiomulheres.py       # Script principal de análise
-├── apresentacao/
-│   └── Apresentacao_Congresso.pptx # Slide utilizado no evento
-├── README.md                      # Documentação do projeto
-└── requirements.txt               # Dependências do projeto
+### 📁 Estrutura do Projeto
+
 
 
 Este projeto foi desenvolvido como parte das atividades acadêmicas do curso de Análise e Desenvolvimento de Sistemas/Ciência de Dados.
